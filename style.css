@@ -1,7 +1,113 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.logo-image{
-    width: 20%;
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+ /*header Area*/
+
+.navbar-header{
+    background: #F0FFF0;
+}
+.header-logo{
+    width: 150px;
+    
+}
+
+.nav-link{
+    color:black;
+    font-size: 20px;
+    
+}
+
+.nav-item{
+    margin-left: 15px;
+}
+
+.nav-item.active {
+    background:#21B573;
+    border-radius: 20px;
+    padding: 2px 20px;   
+}
+.nav-item.active a{
+    color: white;
+}
+
+.header-content{
+    padding: 50px 0;
+    margin-left: 20px;
+}
+
+.header-content h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+
+}
+
+.button{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+/*school-information area */
+
+.school-info{
+ padding: 50px 0;
+}
+
+
+/* Online Courses */
+
+.course-area{
+    padding: 40px 0 ;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.activity{
+    padding-top: 30px;
+}
+
+.activity img{
+    width: 30px;
+    height: 30px;
+}
+
+.activity p{
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+
+.buy-now-button{
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+
+/* Testimonial Area */
+
+.testimonial{
+    padding: 50px 0;
+    
+}
+
+.testimonial h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.footer-area{
+    padding: 80px 0;
+    background: black;
 }

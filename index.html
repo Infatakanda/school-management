@@ -3,67 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>School Management</title>
 </head>
 <body>
 
-   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!--Header Area Start-->
 
-        <a class="navbar-brand" href="#"><img class="logo-image" src="icon/Logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Course</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Others</a>
-            </li>
-               
-            <li class="nav-item">
-                <a class="nav-link" href="#">Blogs</a>
-              </li>
-                 
-           
-          </ul>
-      
+  <div class="container navbar-header">
+    <nav class="navbar navbar-expand-sm">
+      <a class="navbar-brand" href="#"><img class="header-logo" src="icon/Logo.png" alt="School"></a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto header-menu mr-2 px-5">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" href="#">Others</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
+     
+      </div>
+    </nav>
+
+    <div class="header-content">
+      <div class="row">
+        <div class="col-md-6">
+          <a class="text-danger" href="#">Are you ready to learn?</a>
+          <h1>Learn With Fun <br> <span class="text-success">on any schedule</span></h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur<br> Nisi reprehenderit aliquam Dolorem!</p> 
+          <button class="button btn btn-success">Get Started</button>
         </div>
-      </nav>
-
-
-   </div>
- 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a href="#">Are you ready to learn</a>
-                <h2>Learn With fun on any shedule</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore quidem quaerat eaque quia ex. Laboriosam illo suscipit natus distinctio quos.</p>
-                <button class="button btn btn-success">Get Started</button>
-            </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="photos/Illustration.png" alt="">
-            </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="photos/Illustration.png" alt="">
         </div>
+      </div>
     </div>
+  </div>
 
+<!--Header Area End-->
 
+<!--School Information Area Start-->
+  <div class="container school-info">
+    <div class="row">
 
+      <div class="col-3 info-item">
+        <img class="img-fluid" src="icon/book.png" alt="book">
+        <h3>1500+ Topic</h3>
+        <p>Learn Anything</p>
+      </div>
 
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <img class="img-fluid" src="icon/Student.png" alt="book">
+        <h3>1800+ Students</h3>
+        <p>Learn Anything</p>
+      </div>
 
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <img class="img-fluid" src="icon/Test.png" alt="book">
+        <h3>9K+ Students</h3>
+        <p>Learn Anything</p>
+      </div>
 
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+        <img class="img-fluid" src="icon/Students.png" alt="book">
+        <h3>2000+ Students</h3>
+        <p>Learn Anything</p>
+      </div>
+      </div>
+  </div>
+<!--School Information Area End-->
 
+<!--Online Courses Area Start-->
+<div class="container course-area">
+  
+    
+      <h2>Online Courses</h2>  
+    
+      <div class="row">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="Photos/Morder pyschology.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Modern Psychology</h5>
+          <p class="card-text">Designation</p>
+          <button class="btn btn-success buy-now-button">Buy Course</button>
+          <div class="activity">
+            <div class="row">
+            <div class="class-start col-7 d-flex justify-content-between">
+              <img class="img-fluid" src="icon/calendar.png" alt="Celendar">
+              <p>Start 20 April 2021</p>
+            </div>
+            <div class="total-seat col-5 d-flex justify-content-between">
+              <img class="img-fluid" src="icon/people.png" alt="People">
+              <p>60 Seats</p>
+            </div>
+          </div>
+          </div>
+        </div>
+       </div>
+
+      <div class="card">
+        <img class="card-img-top" src="Photos/Morder psyc.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Modern Psychology</h5>
+          <p class="card-text">Designation</p>
+          <button class="btn btn-success buy-now-button">Buy Course</button>
+          <div class="activity">
+            <div class="row">
+            <div class="class-start col-7 d-flex justify-content-between">
+              <img class="img-fluid" src="icon/calendar.png" alt="Celendar">
+              <p>Start 20 April 2021</p>
+            </div>
+            <div class="total-seat col-5 d-flex justify-content-between">
+              <img class="img-fluid" src="icon/people.png" alt="People">
+              <p>60 Seats</p>
+            </div>
+          </div>
+          </div>
+        </div>
+     
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="Photos/Morder pychons.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Modern Psychology</h5>
+          <p class="card-text">Designation</p>
+          <button class="btn btn-success buy-now-button">Buy Course</button>
+          <div class="activity">
+            <div class="row">
+            <div class="class-start col-7 d-flex justify-content-between">
+              <img class="img-fluid" src="icon/calendar.png" alt="Celendar">
+              <p>Start 20 April 2021</p>
+            </div>
+            <div class="total-seat col-5 d-flex justify-content-between">
+              <img class="img-fluid" src="icon/people.png" alt="People">
+              <p>60 Seats</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Online Courses Area End-->
+
+<!--Testimonial Area-->
+<div class="container testimonial">
+  <h2>Testimonial</h2>
+  <div class="row">
+    <div class="col-4">
+      <img class="img-fluid" src="photos/Man.png" alt="">
+    </div>
+    <div class="col-8 d-flex align-items-center">
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+    </div>
+  </div>
+</div>
+<!--Testimonial Area End-->
+
+<!--Footer Area Start-->
+<div class="footer-area">
+  <div class="container">
+<div class="row">
+  <div class="col-6 text-light">
+    <p>Millions of people of all ages and from around the world are improving their lives with us</p>
+  </div>
+  <div class="col-2">
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+        <li class="text-light"><a href="#">Course</a></li>
+        <li><a href="#">Graphic Design</a></li>
+         <li><a href="#">Web Design</a></li>
+         <li> <a href="#">Buisness</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Enginearing</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-2">
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Graphic Design</a></li>
+         <li><a href="#">Web Design</a></li>
+         <li> <a href="#">Buisness</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Enginearing</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-2">
+    <nav class="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Course</a></li>
+        <li><a href="#">Graphic Design</a></li>
+         <li><a href="#">Web Design</a></li>
+         <li> <a href="#">Buisness</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Enginearing</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
+</div>
+<!--Footer Area Start-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
